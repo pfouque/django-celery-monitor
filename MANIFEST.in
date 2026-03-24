@@ -3,12 +3,15 @@ include .coveragerc
 include .editorconfig
 include AUTHORS
 include CHANGELOG.rst
+include CODE_OF_CONDUCT.md
+include CONTRIBUTING.rst
 include LICENSE
 include README.rst
 include MANIFEST.in
 include Makefile
-include setup.cfg
-include setup.py
+include pyproject.toml
+include .pre-commit-config.yaml
+include uv.lock
 include manage.py
 include tox.ini
 recursive-include docs *
